@@ -1,0 +1,131 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background-color: #242424;
+    height: 80px;
+}
+
+.logo img {
+    width: 170px;
+    height: 70px;
+    
+}
+
+.buy-now-btn {
+    background-color: lightgreen;
+    color: #fff;
+    border:none;
+    margin: 20px 40px 20px 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+}
+
+.left-column {
+    width: 50%;
+    padding-right: 20px;
+    border-right: 1px solid #ccc;
+    background-image: url(background_left.jpeg);
+    text-align: center;
+}
+.left-column img{
+    height: 220px;
+    margin-top: 30px;
+}
+.left-column h4{
+    font-family: cursive;
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    width: 100%;
+    font-weight: 300;
+    font-family:cursive;
+}
+.left-column h5{
+    font-size: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    color: #ffffff;
+    line-height: 20px;
+    font-weight: normal;
+}
+.left-column h2{
+    border-bottom: 5px solid #ffffff;
+    border-top: 5px solid#ffffff;
+    display: inline-block;
+    margin-bottom: 50px;
+    padding: 20px 0;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: 700;
+
+}
+
+.right-column {
+    width: 50%;
+}
+
+.card {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    align-items: start;
+    
+}
+
+.template-card img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.view-demo-btn {
+    background-color: #f0f0f0;
+    color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.purchase-btn {
+    background-color: #fade03;
+    color: #000000;
+    border: none;
+    padding: 15px 25px;
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    margin: 0;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #fade03;
+}
+.purchase-btn:hover{
+    background-color: #000000;
+    color: #fade03;
+}
+
+
